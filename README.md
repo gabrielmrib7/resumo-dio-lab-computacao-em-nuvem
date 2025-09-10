@@ -42,3 +42,18 @@ Combina nuvens públicas e privadas, podendo sob a escolha da organização comp
  - Custos conforme a demanada
  - Mais flexível e previsível
 
+----
+### Beneficios da Nuvem
+ - Escalabilidade: Capacidade de aumentar ou reduzir recursos conforme demanda.
+ - Elasticidade: Capacidade de ajustar dinamicamente recursos conforme demanda abaixando ou diminuindo em tempo real.
+ - Confiabilidade: Garantia de alta disponibilidade do serviço.
+ - Previsibilidade: Controle e previsão sobre os gastos e nivel de serviço.
+ - Segurança: Recursos e práticas que o provedor fornece para proteção de dados, infraestrutura e ataques mal-intencionados, o uso dos recursos fica sob a responsabilidade do cliente.
+ - Governança: Capacidade de controle e criação de regras para o uso responsável dos recursos em nuvem, por exemplo, uma política de quem pode acessar determinado banco de dados.
+ - Gerenciabilidade: Capacidade de monitorar e administrar os recursos em nuvem.
+
+----
+
+### Acordo de Nível de Serviço(SLA): 
+Descreve a taxa de disponibilidade (99%, 99.9%, 99.99%), tempo de resposta, políticas de segurança, e outros detalhes específicos do serviço que o provedor garante, caso o provedor não cumpra, o cliente pode receber creditos financeiros ou o poder de recisão contratual sem multa.
+
