@@ -57,3 +57,20 @@ Combina nuvens públicas e privadas, podendo sob a escolha da organização comp
 ### Acordo de Nível de Serviço(SLA): 
 Descreve a taxa de disponibilidade (99%, 99.9%, 99.99%), tempo de resposta, políticas de segurança, e outros detalhes específicos do serviço que o provedor garante, caso o provedor não cumpra, o cliente pode receber creditos financeiros ou o poder de recisão contratual sem multa.
 
+----
+
+### Tipos de serviço
+ - IaaS: Estrutura como serviço, fornece a estrutura de T.I, servidores, armazenamento, redes, você fica responsavel pela gestão do sistema operacional, aplicativos e todo o resto.
+ - PaaS: Plataforma como serviço, fornece a estrutura de T.I e o sistema operacional, ferramentas de desenvolvimento, tudo ja pronto, deixando você responsável apenas pelo desenvolvimento da aplicação.
+ - SaaS: Software como serviço, aplicações prontas para uso via internet, por exemplo o Office365, Gmail.
+ - DbaaS: Banco de dados como serviço, fornece o banco de dados, sem precisar instalar e configurar os servidores, você apenas utiliza o banco.
+
+----
+
+### Mensageria
+Ferramentas e recursos para comunicação assíncrona entre os sistemas.
+ - Mensagens: Um pacote com dados brutos, que espera que o consumidor tenha alguma ação.
+ - Evento: Notificação de uma condição ou alteração de estado, por exemplo, notifica mudanças numa API, "Arquivo X foi criado", "Arquivo X foi alterado", não carregando o Arquivo X dentro da notificação, sem se preocupar se o consumidor vai tomar alguma ação quanto ao que foi recebido, ou seja sua ideia é apenas informar.
+ - Filas: Método um-para-um, entram e são processadas em ordem de chegada (FIFO), e é consumida apenas por 1 "destinatário".
+ - Tópicos: Metodo um-para-muitos, baseado em pub/sub, vários "destinatários" podem receber a mensagem, podendo notificar vários serviços por exemplo, um bom exemplo é um canal no youtube (tópico), o criador de conteúdo (pub do tópico) posta um vídeo e os inscritos (sub do tópico) recebem o vídeo automáticamente.
+
