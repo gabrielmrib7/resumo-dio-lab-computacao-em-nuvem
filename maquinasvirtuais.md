@@ -16,6 +16,8 @@
 ### Pronto!
 <img width="1229" height="552" alt="image" src="https://github.com/user-attachments/assets/be9f377b-44c2-4d57-bef6-425ddd05c48d" />
 
+Fonte: https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal
+
 
 
 
